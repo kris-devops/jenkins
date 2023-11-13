@@ -5,6 +5,16 @@ pipeline{
             steps{
                 echo "from init"
             }
+        },
+        stage('welcome'){
+            steps{
+                echo "Welcome to DevOps"
+            }
+        },
+        stage('seeyou'){
+            steps{
+                echo "See you to DevOps"
+            }
         }
 
     }
